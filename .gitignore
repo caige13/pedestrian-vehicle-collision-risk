@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Dataset files (annotations are small, but never commit video/images)
+data/raw/videos/
+data/raw/*.mp4
+data/raw/*.avi
+data/raw/*.mov
+*.mp4
+*.avi
+*.mov
